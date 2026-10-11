@@ -1,0 +1,55 @@
+content='根据提供的上下文，文中列举的例子主要包括以下几种：
+
+1.  **象棋**：作为奖励的例子，棋局结束时若赢会得到正奖励，若输得到负奖励。
+2.  **股票管理**：奖励由股票获取的收益与损失决定。
+3.  **玩雅达利游戏**：
+    *   作为奖励的例子，奖励是增加或减少的游戏分数。
+    *   具体例子是**Pong游戏**，用于说明强化学习中近期奖励和远期奖励的权衡。
+4.  **走迷宫**：具体描述了智能体从起点（start）移动到终点（goal），每走一步获得-1的奖励，并展示了使用基于策略和基于价值的强化学习方法得到的不同结果。
+5.  **围棋**：用于说明动作空间为离散的情况。
+6.  **机器人控制**：用于说明动作空间为连续的情况。
+7.  **黑杰克**：用于说明部分可观测环境，智能体只能看到牌面上的牌，无法获取环境运作的所有状态。
+8.  **自动驾驶**：用于说明部分可观测环境，智能体只能感知传感器采集的有限环境信息。
+9.  **MountainCar-v0（小车上山任务）**：作为Gym库中的具体环境例子，文中详细介绍了该环境的观测空间、动作空间，并提供了控制小车移动的代码实现和性能评估结果。'
+
+additional_kwargs={
+    'refusal': None
+}
+
+response_metadata={
+    'token_usage': {
+        'completion_tokens': 1605,
+        'prompt_tokens': 5451,
+        'total_tokens': 7056,
+        'completion_tokens_details': {
+            'accepted_prediction_tokens': None,
+            'audio_tokens': None,
+            'reasoning_tokens': 1295,
+            'rejected_prediction_tokens': None
+        },
+        'prompt_tokens_details': {
+            'audio_tokens': None,
+            'cached_tokens': 2
+        }
+    },
+    'model_name': 'glm-4.7-flash',
+    'system_fingerprint': None,
+    'id': '20261011160628ffec24b6b7884cd4',
+    'service_tier': None,
+    'finish_reason': 'stop',
+    'logprobs': None
+}
+
+id='run--b2d82ec9-1490-4ba9-8f47-0382b4e9c313-0'
+
+usage_metadata={
+    'input_tokens': 5451,
+    'output_tokens': 1605,
+    'total_tokens': 7056,
+    'input_token_details': {
+        'cache_read': 2
+    },
+    'output_token_details': {
+        'reasoning': 1295
+    }
+}

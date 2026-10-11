@@ -159,4 +159,5 @@ answer = llm.invoke(prompt.format(question=question, context=docs_content))
 # usage_metadata 等字段包含服务返回的信息及 token 用量，所以终端输出会比较长。
 # 只想阅读正文时，可改为 print(answer.content)，正文中的换行会正常显示。
 # 想查看检索是否合适，可在调用模型前逐个打印 retrieved_docs 中的 page_content。
-print(answer)
+# print(answer)
+print(answer.content)
