@@ -55,7 +55,10 @@ docs = loader.load()
 # 保留部分重复文字可减少边界处的上下文丢失，实际重叠量受分隔位置影响。
 # 这里按字符长度计算，不是按 token 数；token 是模型处理文本时使用的单位。
 # 想实验不同粒度，可改成 RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)。
-text_splitter = RecursiveCharacterTextSplitter()
+# text_splitter = RecursiveCharacterTextSplitter()
+text_splitter = RecursiveCharacterTextSplitter(
+    chunk_size=1024, chunk_overlap=200
+)
 # split_documents() 读取每个 Document 的正文，分块后保留其 metadata。
 # chunks 仍是 list[Document]；与 docs 的区别是每个对象只包含原文的一部分。
 chunks = text_splitter.split_documents(docs)
