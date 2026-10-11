@@ -1,8 +1,9 @@
 import os
+from pathlib import Path
 # hugging face镜像设置，如果国内环境无法使用启用该设置
 # os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 from dotenv import load_dotenv
-from langchain_community.document_loaders import UnstructuredMarkdownLoader
+from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.vectorstores import InMemoryVectorStore
@@ -11,10 +12,10 @@ from langchain_openai import ChatOpenAI
 
 load_dotenv()
 
-markdown_path = "../../data/C1/markdown/easy-rl-chapter1.md"
+markdown_path = Path(__file__).resolve().parents[2] / "data/C1/markdown/easy-rl-chapter1.md"
 
 # 加载本地markdown文件
-loader = UnstructuredMarkdownLoader(markdown_path)
+loader = TextLoader(str(markdown_path), encoding="utf-8")
 docs = loader.load()
 
 # 文本分块
@@ -52,7 +53,7 @@ llm = ChatOpenAI(
     model="glm-4.7-flash-free",
     temperature=0.7,
     max_tokens=4096,
-    api_key=os.getenv("DEEPSEEK_API_KEY"),
+    api_key=os.getenv("AIHUBMIX_API_KEY"),
     base_url="https://aihubmix.com/v1"
 )
 
