@@ -1,0 +1,148 @@
+{
+    'response_synthesizer:text_qa_template': SelectorPromptTemplate(
+        metadata={
+            'prompt_type': <PromptType.QUESTION_ANSWER: 'text_qa'>
+        },
+        template_vars=['context_str', 'query_str'],
+        kwargs={},
+        output_parser=None,
+        template_var_mappings={},
+        function_mappings={},
+        default_template=PromptTemplate(
+            metadata={
+                'prompt_type': <PromptType.QUESTION_ANSWER: 'text_qa'>
+            },
+            template_vars=['context_str', 'query_str'],
+            kwargs={},
+            output_parser=None,
+            template_var_mappings=None,
+            function_mappings=None,
+            template='Context information is below.
+---------------------
+{context_str}
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: {query_str}
+Answer: '
+        ),
+        conditionals=[
+            (
+                <function is_chat_model at 0x104909b20>,
+                ChatPromptTemplate(
+                    metadata={
+                        'prompt_type': <PromptType.CUSTOM: 'custom'>
+                    },
+                    template_vars=['context_str', 'query_str'],
+                    kwargs={},
+                    output_parser=None,
+                    template_var_mappings=None,
+                    function_mappings=None,
+                    message_templates=[
+                        ChatMessage(
+                            role=<MessageRole.SYSTEM: 'system'>,
+                            additional_kwargs={},
+                            blocks=[
+                                TextBlock(
+                                    block_type='text',
+                                    text="You are an expert Q&A system that is trusted around the world.
+Always answer the query using the provided context information, and not prior knowledge.
+Some rules to follow:
+1. Never directly reference the given context in your answer.
+2. Avoid statements like 'Based on the context, ...' or 'The context information ...' or anything along those lines."
+                                )
+                            ]
+                        ),
+                        ChatMessage(
+                            role=<MessageRole.USER: 'user'>,
+                            additional_kwargs={},
+                            blocks=[
+                                TextBlock(
+                                    block_type='text',
+                                    text='Context information is below.
+---------------------
+{context_str}
+---------------------
+Given the context information and not prior knowledge, answer the query.
+Query: {query_str}
+Answer: '
+                                )
+                            ]
+                        )
+                    ]
+                )
+            )
+        ]
+    ),
+
+    'response_synthesizer:refine_template': SelectorPromptTemplate(
+        metadata={
+            'prompt_type': <PromptType.REFINE: 'refine'>
+        },
+        template_vars=['query_str', 'existing_answer', 'context_msg'],
+        kwargs={},
+        output_parser=None,
+        template_var_mappings={},
+        function_mappings={},
+        default_template=PromptTemplate(
+            metadata={
+                'prompt_type': <PromptType.REFINE: 'refine'>
+            },
+            template_vars=['query_str', 'existing_answer', 'context_msg'],
+            kwargs={},
+            output_parser=None,
+            template_var_mappings=None,
+            function_mappings=None,
+            template="The original query is as follows: {query_str}
+We have provided an existing answer: {existing_answer}
+We have the opportunity to refine the existing answer (only if needed) with some more context below.
+------------
+{context_msg}
+------------
+Given the new context, refine the original answer to better answer the query. If the context isn't useful, return the original answer.
+Refined Answer: "
+        ),
+        conditionals=[
+            (
+                <function is_chat_model at 0x104909b20>,
+                ChatPromptTemplate(
+                    metadata={
+                        'prompt_type': <PromptType.CUSTOM: 'custom'>
+                    },
+                    template_vars=['context_msg', 'query_str', 'existing_answer'],
+                    kwargs={},
+                    output_parser=None,
+                    template_var_mappings=None,
+                    function_mappings=None,
+                    message_templates=[
+                        ChatMessage(
+                            role=<MessageRole.USER: 'user'>,
+                            additional_kwargs={},
+                            blocks=[
+                                TextBlock(
+                                    block_type='text',
+                                    text="You are an expert Q&A system that strictly operates in two modes when refining existing answers:
+1. **Rewrite** an original answer using the new context.
+2. **Repeat** the original answer if the new context isn't useful.
+Never reference the original answer or context directly in your answer.
+When in doubt, just repeat the original answer.
+New Context: {context_msg}
+Query: {query_str}
+Original Answer: {existing_answer}
+New Answer: "
+                                )
+                            ]
+                        )
+                    ]
+                )
+            )
+        ]
+    )
+}
+
+
+文中主要列举了以下四个例子来解释探索与利用的权衡：
+
+1.  **选择餐馆**：利用是指去最喜欢的餐馆，因为知道那里的菜可口；探索是指搜索新的餐馆尝试其菜品。
+2.  **做广告**：利用是指采取已知的最优广告策略；探索是指尝试一种新的广告策略。
+3.  **挖油**：利用是指直接在已知的地方挖油；探索是指去新的地方尝试挖掘，虽然可能一无所获，但也有可能发现大油田。
+4.  **玩游戏**：利用是指采取某种固定且已知的策略（如《街头霸王》中蹲在角落一直出脚）；探索是指尝试新的招式（如放出“大招”）。
