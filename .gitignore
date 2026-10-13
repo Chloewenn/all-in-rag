@@ -71,3 +71,15 @@ rag/
 # LLM API keys
 *.key
 *.secret
+
+# Local session file
+/:memory:.ses
+
+# Temporary files
+*.tmp
+*.temp
+
+# Development tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
