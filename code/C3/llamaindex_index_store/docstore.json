@@ -1,0 +1,131 @@
+{
+    "docstore/metadata": {
+        "1a235b52-5446-4d15-a573-35acb066aa5f": {
+            "doc_hash": "5a5ecf71785a042d2b31988694b59c7925094eaea273e467a6afe776a42432cd"
+        },
+        "3848397e-dbe7-4645-9407-4907dfbfd7ea": {
+            "doc_hash": "4ab57ddb6b0b7726615f0e027766bff97651c33aaa4ca8e48755f6c8476c6ca0"
+        },
+        "bcc086c7-8311-441f-9126-8a7d98051b4a": {
+            "doc_hash": "d5ab17a353a3daf441a93a172c9351bc014c6c87763ff7b8eca8a01a9cd1d035"
+        },
+        "a6b16fa6-78b2-40f9-8696-bd5701a404fa": {
+            "doc_hash": "bf8d2f004fc7155822678e4e01cdcbc848dc8999d91493b69d94dd23127d96f3",
+            "ref_doc_id": "1a235b52-5446-4d15-a573-35acb066aa5f"
+        },
+        "ef79cbf2-b534-4217-a90f-c792ce35b778": {
+            "doc_hash": "c89d98180e6c16535972c59533fb3bc70fd29a172fe3ba9a3f843c0606cc4fa1",
+            "ref_doc_id": "3848397e-dbe7-4645-9407-4907dfbfd7ea"
+        },
+        "1c728726-2b5a-44e3-958f-6295b2551560": {
+            "doc_hash": "8ea1bfe239056d8a00cab01ad7ab0bcdf2ce37e5bda7426a760e7452ea381bb4",
+            "ref_doc_id": "bcc086c7-8311-441f-9126-8a7d98051b4a"
+        }
+    },
+    "docstore/ref_doc_info": {
+        "1a235b52-5446-4d15-a573-35acb066aa5f": {
+            "node_ids": [
+                "a6b16fa6-78b2-40f9-8696-bd5701a404fa"
+            ],
+            "metadata": {}
+        },
+        "3848397e-dbe7-4645-9407-4907dfbfd7ea": {
+            "node_ids": [
+                "ef79cbf2-b534-4217-a90f-c792ce35b778"
+            ],
+            "metadata": {}
+        },
+        "bcc086c7-8311-441f-9126-8a7d98051b4a": {
+            "node_ids": [
+                "1c728726-2b5a-44e3-958f-6295b2551560"
+            ],
+            "metadata": {}
+        }
+    },
+    "docstore/data": {
+        "a6b16fa6-78b2-40f9-8696-bd5701a404fa": {
+            "__data__": {
+                "id_": "a6b16fa6-78b2-40f9-8696-bd5701a404fa",
+                "embedding": null,
+                "metadata": {},
+                "excluded_embed_metadata_keys": [],
+                "excluded_llm_metadata_keys": [],
+                "relationships": {
+                    "1": {
+                        "node_id": "1a235b52-5446-4d15-a573-35acb066aa5f",
+                        "node_type": "4",
+                        "metadata": {},
+                        "hash": "5a5ecf71785a042d2b31988694b59c7925094eaea273e467a6afe776a42432cd",
+                        "class_name": "RelatedNodeInfo"
+                    }
+                },
+                "metadata_template": "{key}: {value}",
+                "metadata_separator": "\n",
+                "text": "\u5f20\u4e09\u662f\u6cd5\u5916\u72c2\u5f92",
+                "mimetype": "text/plain",
+                "start_char_idx": 0,
+                "end_char_idx": 7,
+                "metadata_seperator": "\n",
+                "text_template": "{metadata_str}\n\n{content}",
+                "class_name": "TextNode"
+            },
+            "__type__": "1"
+        },
+        "ef79cbf2-b534-4217-a90f-c792ce35b778": {
+            "__data__": {
+                "id_": "ef79cbf2-b534-4217-a90f-c792ce35b778",
+                "embedding": null,
+                "metadata": {},
+                "excluded_embed_metadata_keys": [],
+                "excluded_llm_metadata_keys": [],
+                "relationships": {
+                    "1": {
+                        "node_id": "3848397e-dbe7-4645-9407-4907dfbfd7ea",
+                        "node_type": "4",
+                        "metadata": {},
+                        "hash": "4ab57ddb6b0b7726615f0e027766bff97651c33aaa4ca8e48755f6c8476c6ca0",
+                        "class_name": "RelatedNodeInfo"
+                    }
+                },
+                "metadata_template": "{key}: {value}",
+                "metadata_separator": "\n",
+                "text": "LlamaIndex\u662f\u4e00\u4e2a\u7528\u4e8e\u6784\u5efa\u548c\u67e5\u8be2\u79c1\u6709\u6216\u9886\u57df\u7279\u5b9a\u6570\u636e\u7684\u6846\u67b6\u3002",
+                "mimetype": "text/plain",
+                "start_char_idx": 0,
+                "end_char_idx": 33,
+                "metadata_seperator": "\n",
+                "text_template": "{metadata_str}\n\n{content}",
+                "class_name": "TextNode"
+            },
+            "__type__": "1"
+        },
+        "1c728726-2b5a-44e3-958f-6295b2551560": {
+            "__data__": {
+                "id_": "1c728726-2b5a-44e3-958f-6295b2551560",
+                "embedding": null,
+                "metadata": {},
+                "excluded_embed_metadata_keys": [],
+                "excluded_llm_metadata_keys": [],
+                "relationships": {
+                    "1": {
+                        "node_id": "bcc086c7-8311-441f-9126-8a7d98051b4a",
+                        "node_type": "4",
+                        "metadata": {},
+                        "hash": "d5ab17a353a3daf441a93a172c9351bc014c6c87763ff7b8eca8a01a9cd1d035",
+                        "class_name": "RelatedNodeInfo"
+                    }
+                },
+                "metadata_template": "{key}: {value}",
+                "metadata_separator": "\n",
+                "text": "\u5b83\u63d0\u4f9b\u4e86\u6570\u636e\u8fde\u63a5\u3001\u7d22\u5f15\u548c\u67e5\u8be2\u63a5\u53e3\u7b49\u5de5\u5177\u3002",
+                "mimetype": "text/plain",
+                "start_char_idx": 0,
+                "end_char_idx": 20,
+                "metadata_seperator": "\n",
+                "text_template": "{metadata_str}\n\n{content}",
+                "class_name": "TextNode"
+            },
+            "__type__": "1"
+        }
+    }
+}
