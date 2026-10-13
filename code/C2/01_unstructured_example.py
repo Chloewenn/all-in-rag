@@ -2,16 +2,22 @@ from collections import Counter
 from contextlib import redirect_stdout
 from pathlib import Path
 
-from unstructured.partition.auto import partition
+# from unstructured.partition.auto import partition
+from unstructured.partition.pdf import partition_pdf
 
 # PDF文件路径
 pdf_path = "../../data/C2/pdf/rag.pdf"
 
 # 使用Unstructured加载并解析PDF文档
-elements = partition(
+elements = partition_pdf(
     filename=pdf_path,
-    content_type="application/pdf"
+    content_type="application/pdf",
+    strategy='ocr_only',
+    languages=["chi_sim", "eng"], # 简体中文 + 英文
 )
+# strategy: ['hi_res', 'ocr_only'], hi_res 既关注“写了什么”，也关注“内容在页面上如何组织”；ocr_only 主要关注“图片里有哪些文字”
+# 'hi_res' 希望区分元素类型、分析复杂排版、提取表格结构
+# 'ocr_only' 主要需要读取扫描件中的文字，不需要专门识别版面结构
 
 # 输出文件放在脚本所在目录；不受终端当前工作目录影响。
 output_path = Path(__file__).resolve().with_name("01_output.txt")
