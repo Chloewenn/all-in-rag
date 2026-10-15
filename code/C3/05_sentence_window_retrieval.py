@@ -2,11 +2,19 @@ import os
 from llama_index.core.node_parser import SentenceWindowNodeParser, SentenceSplitter
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 from llama_index.llms.deepseek import DeepSeek
+from llama_index.llms.openai_like import OpenAILike
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.core.postprocessor import MetadataReplacementPostProcessor
 
 # 1. 配置模型
-Settings.llm = DeepSeek(model="deepseek-chat", temperature=0.1, api_key=os.getenv("DEEPSEEK_API_KEY"))
+# Settings.llm = DeepSeek(model="deepseek-chat", temperature=0.1, api_key=os.getenv("AIHUBMIX_API_KEY"))
+Settings.llm = OpenAILike(
+    model="glm-4.7-flash-free",
+    api_key=os.getenv("AIHUBMIX_API_KEY"),
+    api_base="https://aihubmix.com/v1",
+    is_chat_model=True,
+    temperature=0.1
+)
 Settings.embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en")
 
 # 2. 加载文档
@@ -23,6 +31,7 @@ node_parser = SentenceWindowNodeParser.from_defaults(
 )
 sentence_nodes = node_parser.get_nodes_from_documents(documents)
 sentence_index = VectorStoreIndex(sentence_nodes)
+# VectorStoreIndex 使用的是 Settings.embed_model 配置的 embedding 模型
 
 # 3.2 常规分块索引 (基准)
 base_parser = SentenceSplitter(chunk_size=512)

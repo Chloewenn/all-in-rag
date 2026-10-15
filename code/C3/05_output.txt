@@ -1,0 +1,18 @@
+查询: What are the concerns surrounding the AMOC?
+
+--- 句子窗口检索结果 ---
+回答: There is low confidence in understanding the changes to the Atlantic meridional overturning circulation (AMOC) that occurred during the 20th century due to a lack of agreement between quantitative reconstructed and simulated trends. Additionally, directobservational records have been too short to determine the relative contributions of internal variability, natural forcing, and anthropogenic forcing to observed changes.
+
+Looking toward the future, while it is highly likely that the circulation will decline across all scenarios, there is low confidence in the quantitative specifics of these projections. However, it is unlikely that an abrupt collapse will occur before 2100.
+
+--- 常规检索结果 ---
+回答: Concerns regarding the Atlantic overturning circulation (AMOC) largely stem from uncertainties in its historical changes and the causes behind them. There is currently low confidence in both reconstructed and modelled AMOC changes for the 20th century. Additionally, observational records since the mid-2000s have been too short to determine the relative contributions of internal variability, natural forcing, and anthropogenic forcing to AMOC change. While a decline is projected over the 21st century, the quantitative projections of this decline remain low confidence.
+
+---
+Notes
+从输出结果中可以观察到：
+
+两个答案都抓住了核心：两个引擎都正确地识别出，对AMOC的主要担忧是其在21世纪预计的衰退。
+句子窗口检索的答案更详尽、更连贯：句子窗口检索的回答不仅指出了衰退的趋势，还补充了关于“定量预测的置信度低”、“观测记录时间过短”、“20世纪重建和模拟的变化置信度低”等多个维度的细节。这使得答案的信息量更大，上下文更完整，更像一个综述。
+常规检索的答案相对宽泛：常规检索的回答虽然正确，但内容相对概括，最后以“需要进一步研究”这样较为笼同的结论收尾。
+这种差异正是句子窗口检索策略优势的体现。它通过“精确检索小文本块（单个句子），再扩展上下文（句子窗口）”的方式，为大语言模型提供了高度相关且信息丰富的上下文，从而生成了质量更高的答案。
