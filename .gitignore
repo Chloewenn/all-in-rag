@@ -83,3 +83,6 @@ rag/
 .pytest_cache/
 .ruff_cache/
 .mypy_cache/
+
+# Local Docker data for the C3 Milvus example
+/code/C3/volumes/
