@@ -119,6 +119,8 @@ index_params.add_index(
     metric_type="COSINE",
     params={"M": 16, "efConstruction": 256}
 )
+# M: '16' 和 efConstruction: '256' 是 HNSW 索引的两个关键参数，
+# 分别控制着图中每个节点的最大连接数和索引构建时的搜索范围，这些参数直接影响检索的性能和准确性。
 milvus_client.create_index(collection_name=COLLECTION_NAME, index_params=index_params)
 print("成功为向量字段创建 HNSW 索引。")
 print("索引详情:")
@@ -137,6 +139,7 @@ search_results = milvus_client.search(
     data=[query_vector],
     output_fields=["image_path"],
     limit=5,
+    # ef: 搜索时的节点遍历深度，值越大召回率越高但耗时越长
     search_params={"metric_type": "COSINE", "params": {"ef": 128}}
 )[0]
 
