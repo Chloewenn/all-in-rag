@@ -86,3 +86,6 @@ rag/
 
 # Local Docker data for the C3 Milvus example
 /code/C3/volumes/
+
+# File created by the dependency installer's unquoted version constraint
+/code/C4/=1.3.3
