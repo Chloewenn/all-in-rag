@@ -96,12 +96,13 @@ class SimpleText2SQLAgent:
         try:
             cursor = self.connection.cursor()
             
-            # 添加LIMIT限制
+            # 添加LIMIT限制，防止大量数据返回
             if sql.strip().upper().startswith('SELECT') and 'LIMIT' not in sql.upper():
                 sql = f"{sql.rstrip(';')} LIMIT {self.max_result_rows}"
             
             cursor.execute(sql)
             
+            # 结构化结果返回
             if sql.strip().upper().startswith('SELECT'):
                 # 查询语句
                 columns = [desc[0] for desc in cursor.description]
