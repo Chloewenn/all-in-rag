@@ -255,7 +255,9 @@ class HybridMultimodalSearcher:
             print(f"--> Collection 中已有 {self.collection.num_entities} 条数据，跳过插入")
     
     def search(self, query_image_path: str, query_text: str, mode: str = "hybrid", top_k: int = 5) -> list:
-        """执行搜索"""
+        """执行搜索；hybrid 为文本两路融合，all 为包含多模态的三路融合。"""
+        if mode not in ["multimodal", "dense", "sparse", "hybrid", "all"]:
+            raise ValueError(f"不支持的搜索模式: {mode}")
         search_params = {"metric_type": "IP", "params": {}}
         cosine_params = {"metric_type": "COSINE", "params": {"ef": 128}}
         output_fields = ["img_id", "image_path", "title", "description", "category", "location", "environment"]
@@ -303,12 +305,38 @@ class HybridMultimodalSearcher:
             results = self.collection.hybrid_search(
                 [sparse_req, dense_req], rerank=rerank, limit=top_k, output_fields=output_fields
             )[0]
+
+        elif mode == "all":
+            if not query_image_path or not query_text:
+                raise ValueError("all 三路融合模式需要同时提供查询图片和查询文字")
+
+            # 一次准备三种查询向量；BGE-M3 同时生成文本密集和稀疏向量。
+            query_embeddings = self.encoder.encode_query(
+                image_path=query_image_path, text=query_text, mode="all"
+            )
+            # 各路使用自己的向量字段、索引和相似度，不能直接相加不同模型的向量。
+            multimodal_req = AnnSearchRequest(
+                [query_embeddings["multimodal"]], "multimodal_vector", cosine_params, limit=top_k
+            )
+            dense_req = AnnSearchRequest(
+                [query_embeddings["dense"]], "text_dense_vector", search_params, limit=top_k
+            )
+            sparse_req = AnnSearchRequest(
+                [query_embeddings["sparse"]], "text_sparse_vector", search_params, limit=top_k
+            )
+            # 每路先取 top_k 个候选，再按同一主键在三路中的排名进行 RRF 融合。
+            results = self.collection.hybrid_search(
+                [multimodal_req, dense_req, sparse_req],
+                rerank=RRFRanker(k=60),
+                limit=top_k,
+                output_fields=output_fields,
+            )[0]
         
         return results
     
     def compare_search_modes(self, query_image_path: str, query_text: str, top_k: int = 5):
         """对比不同搜索模式的效果"""
-        modes = ["multimodal", "dense", "sparse", "hybrid"]
+        modes = ["multimodal", "dense", "sparse", "hybrid", "all"]
         results = {}
         
         print(f"\n{'='*50}")
@@ -338,7 +366,7 @@ class HybridMultimodalSearcher:
     
     def visualize_comparison(self, query_image_path: str, query_text: str, top_k: int = 3):
         """可视化对比不同搜索模式"""
-        modes = ["multimodal", "dense", "sparse", "hybrid"]
+        modes = ["multimodal", "dense", "sparse", "hybrid", "all"]
         
         for mode in modes:
             results = self.search(query_image_path, query_text, mode, top_k)
@@ -396,8 +424,9 @@ if __name__ == "__main__":
         print("- DENSE: 基于语义的密集向量检索") 
         print("- SPARSE: 基于关键词的稀疏向量检索")
         print("- HYBRID: 稀疏+密集向量RRF融合检索")
+        print("- ALL: 多模态+文本密集+文本稀疏三路RRF融合检索")
         print(f"{'='*50}")
         
     finally:
         # 清理资源
-        searcher.cleanup() 
+        searcher.cleanup()
