@@ -1,5 +1,6 @@
 import os
 from langchain_deepseek import ChatDeepSeek 
+from langchain_openai import ChatOpenAI
 from langchain_community.document_loaders import BiliBiliLoader
 from langchain.chains.query_constructor.base import AttributeInfo
 from langchain.retrievers.self_query.base import SelfQueryRetriever
@@ -37,7 +38,8 @@ try:
         bili.append(doc)
         
 except Exception as e:
-    print(f"加载BiliBili视频失败: {str(e)}")
+    # print(f"加载BiliBili视频失败: {str(e)}")
+    logging.exception("加载BiliBili视频失败")
 
 if not bili:
     print("没有成功加载任何视频，程序退出")
@@ -72,11 +74,17 @@ metadata_field_info = [
 ]
 
 # 4. 创建自查询检索器
-llm = ChatDeepSeek(
-    model="deepseek-chat", 
-    temperature=0, 
-    api_key=os.getenv("DEEPSEEK_API_KEY")
-    )
+# llm = ChatDeepSeek(
+#     model="deepseek-chat", 
+#     temperature=0, 
+#     api_key=os.getenv("DEEPSEEK_API_KEY")
+#     )
+llm = ChatOpenAI(
+    model="glm-4.7-flash-free",
+    temperature=0,
+    api_key=os.getenv("AIHUBMIX_API_KEY"),
+    base_url="https://aihubmix.com/v1"
+)
 
 retriever = SelfQueryRetriever.from_llm(
     llm=llm,
