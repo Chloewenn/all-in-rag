@@ -22,14 +22,14 @@ async def main():
     documents = reader.load_data()
 
     # 1.1 加载或生成响应评估数据集
-    if os.path.exists("./c6_response_eval_dataset.json"):
+    if os.path.exists("./c6_response_eval_dataset_1.json"):
         print("加载响应评估数据集...")
-        response_eval_dataset = QueryResponseDataset.from_json("./c6_response_eval_dataset.json")
+        response_eval_dataset = QueryResponseDataset.from_json("./c6_response_eval_dataset_1.json")
     else:
         print("生成响应评估数据集...")
         dataset_generator = DatasetGenerator.from_documents(documents[:10])  # 减少文档数量
         response_eval_dataset = await dataset_generator.agenerate_dataset_from_nodes(num=15)  # 减少问题数量
-        response_eval_dataset.save_json("./c6_response_eval_dataset.json")
+        response_eval_dataset.save_json("./c6_response_eval_dataset_1.json")
 
 
 
