@@ -22,12 +22,23 @@ async def main():
     documents = reader.load_data()
 
     # 1.1 加载或生成响应评估数据集
-    if os.path.exists("./c6_response_eval_dataset_1.json"):
+    if os.path.exists("./c6_response_eval_dataset_2.json"):
         print("加载响应评估数据集...")
         response_eval_dataset = QueryResponseDataset.from_json("./c6_response_eval_dataset_1.json")
     else:
         print("生成响应评估数据集...")
-        dataset_generator = DatasetGenerator.from_documents(documents[:10])  # 减少文档数量
+        num_questions_per_chunk = 5
+        dataset_generator = DatasetGenerator.from_documents(
+            documents[:10],  # 减少文档数量
+            num_questions_per_chunk=num_questions_per_chunk,
+            question_gen_query=(
+                f"Generate {num_questions_per_chunk} distinct short-answer questions in English "
+                "based solely on the provided context. "
+                "Each question must be complete, self-contained, and answerable from the context. "
+                "Output exactly one question per line. "
+                "Do not include numbering, headings, introductions, summaries, answers, or multiple-choice options."
+            ),
+        )
         response_eval_dataset = await dataset_generator.agenerate_dataset_from_nodes(num=15)  # 减少问题数量
         response_eval_dataset.save_json("./c6_response_eval_dataset_1.json")
 
