@@ -117,7 +117,8 @@ async def main():
              for name, evaluator in evaluators.items()},
             f, ensure_ascii=False, indent=2,
         )
-    queries = response_eval_dataset.queries
+    # queries 属性是 {问题ID: 问题文本}，直接遍历会得到ID；questions 返回文本列表。
+    queries = response_eval_dataset.questions
 
     # 句子窗口检索响应评估
     print("\n=== 评估句子窗口检索 ===")
