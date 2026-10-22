@@ -1,0 +1,572 @@
+[
+  {
+    "question": "e1bbdacc-be6b-43a3-b14e-4f4f2f7f0ac1",
+    "answer": "I'm sorry, but I can't answer that. The query appears to be an identifier or code (e1bbdacc-be6b-43a3-b14e-4f4f2f7f0ac1) rather than a question, and the provided context doesn't contain any information that would let me interpret or respond to it. If you have an actual question about the material, please share it and I'll do my best to help.",
+    "contexts": [
+      "Abram, N., et al., 2019: Framing and Context of the Report.  In: IPCC Special \nReport on the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., \nD. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (pp.  In press).\n Aderinto, T. and H. Li, 2018: Ocean wave energy converters: status and \nchallenges. ",
+      "(2016); Onda et al. \n (2017); Vernet et al.  (2017); Grebmeier et al.  (2018); Moore \net al.  (2018b); Cavan et al.  (2019); Vaqué et al.  (2019); \nYurkowski et al. "
+    ],
+    "evaluations": {
+      "faithfulness": {
+        "query": "e1bbdacc-be6b-43a3-b14e-4f4f2f7f0ac1",
+        "contexts": [
+          "Abram, N., et al., 2019: Framing and Context of the Report.  In: IPCC Special \nReport on the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., \nD. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (pp.  In press).\n Aderinto, T. and H. Li, 2018: Ocean wave energy converters: status and \nchallenges. ",
+          "(2016); Onda et al. \n (2017); Vernet et al.  (2017); Grebmeier et al.  (2018); Moore \net al.  (2018b); Cavan et al.  (2019); Vaqué et al.  (2019); \nYurkowski et al. "
+        ],
+        "response": "I'm sorry, but I can't answer that. The query appears to be an identifier or code (e1bbdacc-be6b-43a3-b14e-4f4f2f7f0ac1) rather than a question, and the provided context doesn't contain any information that would let me interpret or respond to it. If you have an actual question about the material, please share it and I'll do my best to help.",
+        "passing": false,
+        "feedback": "NO",
+        "score": 0.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      },
+      "relevancy": {
+        "query": "e1bbdacc-be6b-43a3-b14e-4f4f2f7f0ac1",
+        "contexts": [
+          "Abram, N., et al., 2019: Framing and Context of the Report.  In: IPCC Special \nReport on the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., \nD. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (pp.  In press).\n Aderinto, T. and H. Li, 2018: Ocean wave energy converters: status and \nchallenges. ",
+          "(2016); Onda et al. \n (2017); Vernet et al.  (2017); Grebmeier et al.  (2018); Moore \net al.  (2018b); Cavan et al.  (2019); Vaqué et al.  (2019); \nYurkowski et al. "
+        ],
+        "response": "I'm sorry, but I can't answer that. The query appears to be an identifier or code (e1bbdacc-be6b-43a3-b14e-4f4f2f7f0ac1) rather than a question, and the provided context doesn't contain any information that would let me interpret or respond to it. If you have an actual question about the material, please share it and I'll do my best to help.",
+        "passing": true,
+        "feedback": "YES",
+        "score": 1.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      }
+    }
+  },
+  {
+    "question": "6b3f5b8f-f31a-43f8-a178-c09832dbf579",
+    "answer": "I'm sorry, but I can't answer that query. The identifier \"6b3f5b8f-f31a-43f8-a178-c09832dbf579\" doesn't correspond to any question or content I can interpret from the provided information. If you have an actual question about the material, please share it and I'll do my best to help.",
+    "contexts": [
+      "Contribution \nof Working Group I to the Sixth Assessment Report of the Intergovernmental \nPanel on Climate Change.  [Masson-Delmotte, V., P .  Zhai, A. Pirani, S. L. \nConnors, C. Péan, S. Berger, N. Caud, Y .  Chen, L. Goldfarb, M. I. Gomis, M. \nHuang, K. Leitzell, E. Lonnoy, J. B. R. Matthews, T. K. Maycock, T. Waterfield, O. \nYelekçi, R. Yu and B. Zhou (eds.)].  Cambridge University Press.\n Cao, R., et  al., 2018: CO 2-induced ocean acidification impairs the immune \nfunction of the Pacific oyster against Vibrio splendidus challenge: an \nintegrated study from a cellular and proteomic perspective.  Sci. ",
+      "(2017); Maxwell et al.  (2020a); \nArafeh-Dalmau et al.  (2021); \nGurney et al.  (2021); Sala et al. \n (2021)\nConservation (Section 3.6.3.2.1)\nConservation of climate \nrefugia Medium confidence\nProtecting areas that retain climate and \nbiodiversity conditions for longer durations \nunder climate change can increase the resilience \nof marine ecosystems to warming and marine \nheatwaves (MHWs), and facilitate marine species \nrange shifts.\n Section 3.4.3.3.4; \nCross-Chapter Box MOVING \nSPECIES in Chapter 5; Rilov et al. \n (2020); Wilson et al. "
+    ],
+    "evaluations": {
+      "faithfulness": {
+        "query": "6b3f5b8f-f31a-43f8-a178-c09832dbf579",
+        "contexts": [
+          "Contribution \nof Working Group I to the Sixth Assessment Report of the Intergovernmental \nPanel on Climate Change.  [Masson-Delmotte, V., P .  Zhai, A. Pirani, S. L. \nConnors, C. Péan, S. Berger, N. Caud, Y .  Chen, L. Goldfarb, M. I. Gomis, M. \nHuang, K. Leitzell, E. Lonnoy, J. B. R. Matthews, T. K. Maycock, T. Waterfield, O. \nYelekçi, R. Yu and B. Zhou (eds.)].  Cambridge University Press.\n Cao, R., et  al., 2018: CO 2-induced ocean acidification impairs the immune \nfunction of the Pacific oyster against Vibrio splendidus challenge: an \nintegrated study from a cellular and proteomic perspective.  Sci. ",
+          "(2017); Maxwell et al.  (2020a); \nArafeh-Dalmau et al.  (2021); \nGurney et al.  (2021); Sala et al. \n (2021)\nConservation (Section 3.6.3.2.1)\nConservation of climate \nrefugia Medium confidence\nProtecting areas that retain climate and \nbiodiversity conditions for longer durations \nunder climate change can increase the resilience \nof marine ecosystems to warming and marine \nheatwaves (MHWs), and facilitate marine species \nrange shifts.\n Section 3.4.3.3.4; \nCross-Chapter Box MOVING \nSPECIES in Chapter 5; Rilov et al. \n (2020); Wilson et al. "
+        ],
+        "response": "I'm sorry, but I can't answer that query. The identifier \"6b3f5b8f-f31a-43f8-a178-c09832dbf579\" doesn't correspond to any question or content I can interpret from the provided information. If you have an actual question about the material, please share it and I'll do my best to help.",
+        "passing": false,
+        "feedback": "NO",
+        "score": 0.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      },
+      "relevancy": {
+        "query": "6b3f5b8f-f31a-43f8-a178-c09832dbf579",
+        "contexts": [
+          "Contribution \nof Working Group I to the Sixth Assessment Report of the Intergovernmental \nPanel on Climate Change.  [Masson-Delmotte, V., P .  Zhai, A. Pirani, S. L. \nConnors, C. Péan, S. Berger, N. Caud, Y .  Chen, L. Goldfarb, M. I. Gomis, M. \nHuang, K. Leitzell, E. Lonnoy, J. B. R. Matthews, T. K. Maycock, T. Waterfield, O. \nYelekçi, R. Yu and B. Zhou (eds.)].  Cambridge University Press.\n Cao, R., et  al., 2018: CO 2-induced ocean acidification impairs the immune \nfunction of the Pacific oyster against Vibrio splendidus challenge: an \nintegrated study from a cellular and proteomic perspective.  Sci. ",
+          "(2017); Maxwell et al.  (2020a); \nArafeh-Dalmau et al.  (2021); \nGurney et al.  (2021); Sala et al. \n (2021)\nConservation (Section 3.6.3.2.1)\nConservation of climate \nrefugia Medium confidence\nProtecting areas that retain climate and \nbiodiversity conditions for longer durations \nunder climate change can increase the resilience \nof marine ecosystems to warming and marine \nheatwaves (MHWs), and facilitate marine species \nrange shifts.\n Section 3.4.3.3.4; \nCross-Chapter Box MOVING \nSPECIES in Chapter 5; Rilov et al. \n (2020); Wilson et al. "
+        ],
+        "response": "I'm sorry, but I can't answer that query. The identifier \"6b3f5b8f-f31a-43f8-a178-c09832dbf579\" doesn't correspond to any question or content I can interpret from the provided information. If you have an actual question about the material, please share it and I'll do my best to help.",
+        "passing": false,
+        "feedback": "NO",
+        "score": 0.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      }
+    }
+  },
+  {
+    "question": "4474b40f-da3e-40d0-ae31-61c795a988be",
+    "answer": "I'm sorry, but I can't answer that query. The provided context doesn't contain information relevant to the identifier \"4474b40f-da3e-40d0-ae31-61c795a988be,\" so I have no basis to respond to it.",
+    "contexts": [
+      "Förster, J., E. McLeod, M.M.  Bruton-Adams and H. Wittmer, 2019: Climate change \nimpacts on small island states: ecosystem services risks and opportunities.  In: \nAtlas of Ecosystem Services: Drivers, Risks, and Societal Responses [Schröter, \nM., A. Bonn, S. Klotz, R. Seppelt and C.  Baessler(eds.)].  Springer International \nPublishing, Cham, pp.  353–359.  ISBN 978-3319962290.\n",
+      "(2021)\nPhenological mismatches Mismatches in timing arise between spring phytoplankton blooms and \nzooplankton recruits.\n Søreide et al.  (2010); Renaud et al.  (2018); Dezutter et al. \n (2019)\nIncreased top-down trophic regulation\nIncreased predation efficiency and top-down regulation of zooplankton \nby zooplanktivorous fish (due to more light with less sea ice) disconnects \nzooplankton and phytoplankton production.\n Langbehn and Varpe (2017); Kaartvedt and Titelman (2018); \nHobbs et al.  (2021)\nTable 3.14 |  Summary of previous IPCC assessments for polar seas\nObservations Projections\nAR5 (Wong et al., 2014)\nPoleward species distributional shifts are due to climate warming (medium to high \nconfidence).\n"
+    ],
+    "evaluations": {
+      "faithfulness": {
+        "query": "4474b40f-da3e-40d0-ae31-61c795a988be",
+        "contexts": [
+          "Förster, J., E. McLeod, M.M.  Bruton-Adams and H. Wittmer, 2019: Climate change \nimpacts on small island states: ecosystem services risks and opportunities.  In: \nAtlas of Ecosystem Services: Drivers, Risks, and Societal Responses [Schröter, \nM., A. Bonn, S. Klotz, R. Seppelt and C.  Baessler(eds.)].  Springer International \nPublishing, Cham, pp.  353–359.  ISBN 978-3319962290.\n",
+          "(2021)\nPhenological mismatches Mismatches in timing arise between spring phytoplankton blooms and \nzooplankton recruits.\n Søreide et al.  (2010); Renaud et al.  (2018); Dezutter et al. \n (2019)\nIncreased top-down trophic regulation\nIncreased predation efficiency and top-down regulation of zooplankton \nby zooplanktivorous fish (due to more light with less sea ice) disconnects \nzooplankton and phytoplankton production.\n Langbehn and Varpe (2017); Kaartvedt and Titelman (2018); \nHobbs et al.  (2021)\nTable 3.14 |  Summary of previous IPCC assessments for polar seas\nObservations Projections\nAR5 (Wong et al., 2014)\nPoleward species distributional shifts are due to climate warming (medium to high \nconfidence).\n"
+        ],
+        "response": "I'm sorry, but I can't answer that query. The provided context doesn't contain information relevant to the identifier \"4474b40f-da3e-40d0-ae31-61c795a988be,\" so I have no basis to respond to it.",
+        "passing": false,
+        "feedback": "NO",
+        "score": 0.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      },
+      "relevancy": {
+        "query": "4474b40f-da3e-40d0-ae31-61c795a988be",
+        "contexts": [
+          "Förster, J., E. McLeod, M.M.  Bruton-Adams and H. Wittmer, 2019: Climate change \nimpacts on small island states: ecosystem services risks and opportunities.  In: \nAtlas of Ecosystem Services: Drivers, Risks, and Societal Responses [Schröter, \nM., A. Bonn, S. Klotz, R. Seppelt and C.  Baessler(eds.)].  Springer International \nPublishing, Cham, pp.  353–359.  ISBN 978-3319962290.\n",
+          "(2021)\nPhenological mismatches Mismatches in timing arise between spring phytoplankton blooms and \nzooplankton recruits.\n Søreide et al.  (2010); Renaud et al.  (2018); Dezutter et al. \n (2019)\nIncreased top-down trophic regulation\nIncreased predation efficiency and top-down regulation of zooplankton \nby zooplanktivorous fish (due to more light with less sea ice) disconnects \nzooplankton and phytoplankton production.\n Langbehn and Varpe (2017); Kaartvedt and Titelman (2018); \nHobbs et al.  (2021)\nTable 3.14 |  Summary of previous IPCC assessments for polar seas\nObservations Projections\nAR5 (Wong et al., 2014)\nPoleward species distributional shifts are due to climate warming (medium to high \nconfidence).\n"
+        ],
+        "response": "I'm sorry, but I can't answer that query. The provided context doesn't contain information relevant to the identifier \"4474b40f-da3e-40d0-ae31-61c795a988be,\" so I have no basis to respond to it.",
+        "passing": true,
+        "feedback": "YES",
+        "score": 1.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      }
+    }
+  },
+  {
+    "question": "8aa382b1-a64e-445f-a76a-3b5d488c547b",
+    "answer": "I'm sorry, but I can't answer that query. The identifier \"8aa382b1-a64e-445f-a76a-3b5d488c547b\" doesn't correspond to any question or content I can interpret from the provided information. If you have a specific question about the material, please rephrase it and I'll be glad to help.",
+    "contexts": [
+      "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. ",
+      "(2017); Maxwell et al.  (2020a); \nArafeh-Dalmau et al.  (2021); \nGurney et al.  (2021); Sala et al. \n (2021)\nConservation (Section 3.6.3.2.1)\nConservation of climate \nrefugia Medium confidence\nProtecting areas that retain climate and \nbiodiversity conditions for longer durations \nunder climate change can increase the resilience \nof marine ecosystems to warming and marine \nheatwaves (MHWs), and facilitate marine species \nrange shifts.\n Section 3.4.3.3.4; \nCross-Chapter Box MOVING \nSPECIES in Chapter 5; Rilov et al. \n (2020); Wilson et al. "
+    ],
+    "evaluations": {
+      "faithfulness": {
+        "query": "8aa382b1-a64e-445f-a76a-3b5d488c547b",
+        "contexts": [
+          "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. ",
+          "(2017); Maxwell et al.  (2020a); \nArafeh-Dalmau et al.  (2021); \nGurney et al.  (2021); Sala et al. \n (2021)\nConservation (Section 3.6.3.2.1)\nConservation of climate \nrefugia Medium confidence\nProtecting areas that retain climate and \nbiodiversity conditions for longer durations \nunder climate change can increase the resilience \nof marine ecosystems to warming and marine \nheatwaves (MHWs), and facilitate marine species \nrange shifts.\n Section 3.4.3.3.4; \nCross-Chapter Box MOVING \nSPECIES in Chapter 5; Rilov et al. \n (2020); Wilson et al. "
+        ],
+        "response": "I'm sorry, but I can't answer that query. The identifier \"8aa382b1-a64e-445f-a76a-3b5d488c547b\" doesn't correspond to any question or content I can interpret from the provided information. If you have a specific question about the material, please rephrase it and I'll be glad to help.",
+        "passing": false,
+        "feedback": "NO",
+        "score": 0.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      },
+      "relevancy": {
+        "query": "8aa382b1-a64e-445f-a76a-3b5d488c547b",
+        "contexts": [
+          "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. ",
+          "(2017); Maxwell et al.  (2020a); \nArafeh-Dalmau et al.  (2021); \nGurney et al.  (2021); Sala et al. \n (2021)\nConservation (Section 3.6.3.2.1)\nConservation of climate \nrefugia Medium confidence\nProtecting areas that retain climate and \nbiodiversity conditions for longer durations \nunder climate change can increase the resilience \nof marine ecosystems to warming and marine \nheatwaves (MHWs), and facilitate marine species \nrange shifts.\n Section 3.4.3.3.4; \nCross-Chapter Box MOVING \nSPECIES in Chapter 5; Rilov et al. \n (2020); Wilson et al. "
+        ],
+        "response": "I'm sorry, but I can't answer that query. The identifier \"8aa382b1-a64e-445f-a76a-3b5d488c547b\" doesn't correspond to any question or content I can interpret from the provided information. If you have a specific question about the material, please rephrase it and I'll be glad to help.",
+        "passing": true,
+        "feedback": "YES",
+        "score": 1.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      }
+    }
+  },
+  {
+    "question": "ddf87eaa-a8b2-45ad-931f-3711d8cee74c",
+    "answer": "I'm sorry, but I can't answer that query. The identifier \"ddf87eaa-a8b2-45ad-931f-3711d8cee74c\" doesn't correspond to any question or content I can interpret from the provided information. Could you please rephrase your question or clarify what you'd like to know about the material?",
+    "contexts": [
+      "(2017); Maxwell et al.  (2020a); \nArafeh-Dalmau et al.  (2021); \nGurney et al.  (2021); Sala et al. \n (2021)\nConservation (Section 3.6.3.2.1)\nConservation of climate \nrefugia Medium confidence\nProtecting areas that retain climate and \nbiodiversity conditions for longer durations \nunder climate change can increase the resilience \nof marine ecosystems to warming and marine \nheatwaves (MHWs), and facilitate marine species \nrange shifts.\n Section 3.4.3.3.4; \nCross-Chapter Box MOVING \nSPECIES in Chapter 5; Rilov et al. \n (2020); Wilson et al. ",
+      "(2021)\nTourism (Section 3.6.3.1.3), \nconservation, (Section 3.6.3.2.1.)\n Sustainable harvesting High confidence\nSustainable harvesting is a nature-based solution \nthat contributes to adaptation by safeguarding \nthe provision of marine food and cultural services \nwhile reducing the ecological vulnerability of \nmarine ecosystems.\n Gattuso et al.  (2018); Burden and \nFujita (2019); Duarte et al.  (2020)\nFisheries and mariculture \n(Section 3.6.3.1.2)\nClimate-adaptive \nmanagement High confidence\nIncorporating climate-adaptive management \nallows climate knowledge and information \navailable for the system to be iteratively updated \nin the management plan.  It also facilitates \nconsideration of species distribution shifts and \nother climate-change responses.\n Cross-Chapter Box MOVING \nSPECIES in Chapter 5; Rilov et al. \n"
+    ],
+    "evaluations": {
+      "faithfulness": {
+        "query": "ddf87eaa-a8b2-45ad-931f-3711d8cee74c",
+        "contexts": [
+          "(2017); Maxwell et al.  (2020a); \nArafeh-Dalmau et al.  (2021); \nGurney et al.  (2021); Sala et al. \n (2021)\nConservation (Section 3.6.3.2.1)\nConservation of climate \nrefugia Medium confidence\nProtecting areas that retain climate and \nbiodiversity conditions for longer durations \nunder climate change can increase the resilience \nof marine ecosystems to warming and marine \nheatwaves (MHWs), and facilitate marine species \nrange shifts.\n Section 3.4.3.3.4; \nCross-Chapter Box MOVING \nSPECIES in Chapter 5; Rilov et al. \n (2020); Wilson et al. ",
+          "(2021)\nTourism (Section 3.6.3.1.3), \nconservation, (Section 3.6.3.2.1.)\n Sustainable harvesting High confidence\nSustainable harvesting is a nature-based solution \nthat contributes to adaptation by safeguarding \nthe provision of marine food and cultural services \nwhile reducing the ecological vulnerability of \nmarine ecosystems.\n Gattuso et al.  (2018); Burden and \nFujita (2019); Duarte et al.  (2020)\nFisheries and mariculture \n(Section 3.6.3.1.2)\nClimate-adaptive \nmanagement High confidence\nIncorporating climate-adaptive management \nallows climate knowledge and information \navailable for the system to be iteratively updated \nin the management plan.  It also facilitates \nconsideration of species distribution shifts and \nother climate-change responses.\n Cross-Chapter Box MOVING \nSPECIES in Chapter 5; Rilov et al. \n"
+        ],
+        "response": "I'm sorry, but I can't answer that query. The identifier \"ddf87eaa-a8b2-45ad-931f-3711d8cee74c\" doesn't correspond to any question or content I can interpret from the provided information. Could you please rephrase your question or clarify what you'd like to know about the material?",
+        "passing": false,
+        "feedback": "NO",
+        "score": 0.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      },
+      "relevancy": {
+        "query": "ddf87eaa-a8b2-45ad-931f-3711d8cee74c",
+        "contexts": [
+          "(2017); Maxwell et al.  (2020a); \nArafeh-Dalmau et al.  (2021); \nGurney et al.  (2021); Sala et al. \n (2021)\nConservation (Section 3.6.3.2.1)\nConservation of climate \nrefugia Medium confidence\nProtecting areas that retain climate and \nbiodiversity conditions for longer durations \nunder climate change can increase the resilience \nof marine ecosystems to warming and marine \nheatwaves (MHWs), and facilitate marine species \nrange shifts.\n Section 3.4.3.3.4; \nCross-Chapter Box MOVING \nSPECIES in Chapter 5; Rilov et al. \n (2020); Wilson et al. ",
+          "(2021)\nTourism (Section 3.6.3.1.3), \nconservation, (Section 3.6.3.2.1.)\n Sustainable harvesting High confidence\nSustainable harvesting is a nature-based solution \nthat contributes to adaptation by safeguarding \nthe provision of marine food and cultural services \nwhile reducing the ecological vulnerability of \nmarine ecosystems.\n Gattuso et al.  (2018); Burden and \nFujita (2019); Duarte et al.  (2020)\nFisheries and mariculture \n(Section 3.6.3.1.2)\nClimate-adaptive \nmanagement High confidence\nIncorporating climate-adaptive management \nallows climate knowledge and information \navailable for the system to be iteratively updated \nin the management plan.  It also facilitates \nconsideration of species distribution shifts and \nother climate-change responses.\n Cross-Chapter Box MOVING \nSPECIES in Chapter 5; Rilov et al. \n"
+        ],
+        "response": "I'm sorry, but I can't answer that query. The identifier \"ddf87eaa-a8b2-45ad-931f-3711d8cee74c\" doesn't correspond to any question or content I can interpret from the provided information. Could you please rephrase your question or clarify what you'd like to know about the material?",
+        "passing": true,
+        "feedback": "YES",
+        "score": 1.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      }
+    }
+  },
+  {
+    "question": "7bf2aa33-6150-4cfc-8cd9-d35796520b21",
+    "answer": "I'm sorry, but I can't answer that query. The context provided doesn't contain any information that corresponds to that identifier, so I have no basis to respond.",
+    "contexts": [
+      "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. ",
+      "[Masson-Delmotte, V., P .  Zhai, \nH.-O.  Pörtner, D. Roberts, J. Skea, P .  R. Shukla, A. Pirani, W. Moufouma-Okia, C. \nPéan, R. Pidcock, S. Connors, J. B. R. Matthews, Y .  Chen, X. Zhou, M. I. Gomis, \nE. Lonnoy, T. Maycock, M. Tignor and T. Waterfield (eds. )](In Press).\n Rubenstein, M. A., R. Christophersen and J.I. "
+    ],
+    "evaluations": {
+      "faithfulness": {
+        "query": "7bf2aa33-6150-4cfc-8cd9-d35796520b21",
+        "contexts": [
+          "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. ",
+          "[Masson-Delmotte, V., P .  Zhai, \nH.-O.  Pörtner, D. Roberts, J. Skea, P .  R. Shukla, A. Pirani, W. Moufouma-Okia, C. \nPéan, R. Pidcock, S. Connors, J. B. R. Matthews, Y .  Chen, X. Zhou, M. I. Gomis, \nE. Lonnoy, T. Maycock, M. Tignor and T. Waterfield (eds. )](In Press).\n Rubenstein, M. A., R. Christophersen and J.I. "
+        ],
+        "response": "I'm sorry, but I can't answer that query. The context provided doesn't contain any information that corresponds to that identifier, so I have no basis to respond.",
+        "passing": false,
+        "feedback": "NO",
+        "score": 0.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      },
+      "relevancy": {
+        "query": "7bf2aa33-6150-4cfc-8cd9-d35796520b21",
+        "contexts": [
+          "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. ",
+          "[Masson-Delmotte, V., P .  Zhai, \nH.-O.  Pörtner, D. Roberts, J. Skea, P .  R. Shukla, A. Pirani, W. Moufouma-Okia, C. \nPéan, R. Pidcock, S. Connors, J. B. R. Matthews, Y .  Chen, X. Zhou, M. I. Gomis, \nE. Lonnoy, T. Maycock, M. Tignor and T. Waterfield (eds. )](In Press).\n Rubenstein, M. A., R. Christophersen and J.I. "
+        ],
+        "response": "I'm sorry, but I can't answer that query. The context provided doesn't contain any information that corresponds to that identifier, so I have no basis to respond.",
+        "passing": true,
+        "feedback": "YES",
+        "score": 1.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      }
+    }
+  },
+  {
+    "question": "b17da85e-8033-4016-b203-f90660d46420",
+    "answer": "I'm sorry, but I can't answer that query. The provided context doesn't contain information relevant to the identifier \"b17da85e-8033-4016-b203-f90660d46420\" — it only includes bibliographic references from an IPCC report. If you have a specific question about the content in these references, I'd be happy to help.",
+    "contexts": [
+      "Glob.  Change Biol., 20(12), 3845–3858, \ndoi:10.1111/gcb.12662.\n Global Ocean Oxygen Network, 2018: The Ocean is Losing Its Breath: Declining \nOxygen in the World’s Ocean and Coastal Waters.  [Breitburg, D., M. Gregoire \nand K. Isensee (eds.)].  IOC Technical Series.IOC-UNESCO, Paris, Accessed 26th \nDecember 2021, https://unesdoc.unesco.org/ark:/48223/pf0000265196.  (40 \npp).\n Gobler, C.J. ",
+      "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. "
+    ],
+    "evaluations": {
+      "faithfulness": {
+        "query": "b17da85e-8033-4016-b203-f90660d46420",
+        "contexts": [
+          "Glob.  Change Biol., 20(12), 3845–3858, \ndoi:10.1111/gcb.12662.\n Global Ocean Oxygen Network, 2018: The Ocean is Losing Its Breath: Declining \nOxygen in the World’s Ocean and Coastal Waters.  [Breitburg, D., M. Gregoire \nand K. Isensee (eds.)].  IOC Technical Series.IOC-UNESCO, Paris, Accessed 26th \nDecember 2021, https://unesdoc.unesco.org/ark:/48223/pf0000265196.  (40 \npp).\n Gobler, C.J. ",
+          "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. "
+        ],
+        "response": "I'm sorry, but I can't answer that query. The provided context doesn't contain information relevant to the identifier \"b17da85e-8033-4016-b203-f90660d46420\" — it only includes bibliographic references from an IPCC report. If you have a specific question about the content in these references, I'd be happy to help.",
+        "passing": false,
+        "feedback": "NO",
+        "score": 0.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      },
+      "relevancy": {
+        "query": "b17da85e-8033-4016-b203-f90660d46420",
+        "contexts": [
+          "Glob.  Change Biol., 20(12), 3845–3858, \ndoi:10.1111/gcb.12662.\n Global Ocean Oxygen Network, 2018: The Ocean is Losing Its Breath: Declining \nOxygen in the World’s Ocean and Coastal Waters.  [Breitburg, D., M. Gregoire \nand K. Isensee (eds.)].  IOC Technical Series.IOC-UNESCO, Paris, Accessed 26th \nDecember 2021, https://unesdoc.unesco.org/ark:/48223/pf0000265196.  (40 \npp).\n Gobler, C.J. ",
+          "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. "
+        ],
+        "response": "I'm sorry, but I can't answer that query. The provided context doesn't contain information relevant to the identifier \"b17da85e-8033-4016-b203-f90660d46420\" — it only includes bibliographic references from an IPCC report. If you have a specific question about the content in these references, I'd be happy to help.",
+        "passing": true,
+        "feedback": "YES",
+        "score": 1.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      }
+    }
+  },
+  {
+    "question": "52e7f31f-9d97-4af6-bb46-3898136ede8b",
+    "answer": "I'm sorry, but I can't answer that. The provided context doesn't contain information relevant to that query.",
+    "contexts": [
+      "Meredith, M.P ., et  al., 2019: Polar Regions.  In: IPCC Special Report on the \nOcean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. C. Roberts, \nV. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. Mintenbeck, M. \nNicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds. )](In press).",
+      "In: Climate Change 2014: Impacts, \nAdaptation, and Vulnerability.  Part B: Regional Aspects.  Contribution of \nWorking Group II to the Fifth Assessment Report of the Intergovernmental \nPanel of Climate Change.  [Barros, V. R., C. B. Field, D. J. Dokken, M. D. \nMastrandrea, K. J. Mach, T. E. Bilir, M. Chatterjee, K. L. Ebi, Y .  O. Estrada, R. C. \nGenova, B. Girma, E. S. Kissel, A. N. Levy, S. MacCracken, P .  R. Mastrandrea \nand L. L. White (eds.)].  Cambridge University Press, Cambridge, UK and New \nYork, NY , USA, pp. "
+    ],
+    "evaluations": {
+      "faithfulness": {
+        "query": "52e7f31f-9d97-4af6-bb46-3898136ede8b",
+        "contexts": [
+          "Meredith, M.P ., et  al., 2019: Polar Regions.  In: IPCC Special Report on the \nOcean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. C. Roberts, \nV. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. Mintenbeck, M. \nNicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds. )](In press).",
+          "In: Climate Change 2014: Impacts, \nAdaptation, and Vulnerability.  Part B: Regional Aspects.  Contribution of \nWorking Group II to the Fifth Assessment Report of the Intergovernmental \nPanel of Climate Change.  [Barros, V. R., C. B. Field, D. J. Dokken, M. D. \nMastrandrea, K. J. Mach, T. E. Bilir, M. Chatterjee, K. L. Ebi, Y .  O. Estrada, R. C. \nGenova, B. Girma, E. S. Kissel, A. N. Levy, S. MacCracken, P .  R. Mastrandrea \nand L. L. White (eds.)].  Cambridge University Press, Cambridge, UK and New \nYork, NY , USA, pp. "
+        ],
+        "response": "I'm sorry, but I can't answer that. The provided context doesn't contain information relevant to that query.",
+        "passing": false,
+        "feedback": "NO",
+        "score": 0.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      },
+      "relevancy": {
+        "query": "52e7f31f-9d97-4af6-bb46-3898136ede8b",
+        "contexts": [
+          "Meredith, M.P ., et  al., 2019: Polar Regions.  In: IPCC Special Report on the \nOcean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. C. Roberts, \nV. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. Mintenbeck, M. \nNicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds. )](In press).",
+          "In: Climate Change 2014: Impacts, \nAdaptation, and Vulnerability.  Part B: Regional Aspects.  Contribution of \nWorking Group II to the Fifth Assessment Report of the Intergovernmental \nPanel of Climate Change.  [Barros, V. R., C. B. Field, D. J. Dokken, M. D. \nMastrandrea, K. J. Mach, T. E. Bilir, M. Chatterjee, K. L. Ebi, Y .  O. Estrada, R. C. \nGenova, B. Girma, E. S. Kissel, A. N. Levy, S. MacCracken, P .  R. Mastrandrea \nand L. L. White (eds.)].  Cambridge University Press, Cambridge, UK and New \nYork, NY , USA, pp. "
+        ],
+        "response": "I'm sorry, but I can't answer that. The provided context doesn't contain information relevant to that query.",
+        "passing": true,
+        "feedback": "YES",
+        "score": 1.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      }
+    }
+  },
+  {
+    "question": "c755f533-0cc2-451e-8ea0-075b34aa98ae",
+    "answer": "I'm sorry, but I can't answer that query. The provided context doesn't contain information relevant to the identifier \"c755f533-0cc2-451e-8ea0-075b34aa98ae,\" so I have no basis to respond to it.",
+    "contexts": [
+      "Front.  Ecol.  Evol., 8, 144, doi:10.3389/fevo.2020.00144.\n Nguyen, T., M. Pham and T.L.  Anh, 2020: Spray, combustion, performance and \nemission characteristics of a common rail diesel engine fueled by fish-oil \nbiodiesel blends.  Fuel., 269, 117108, doi:10.1016/j.fuel.2020.117108.\n Ni, W., M. Li and J.M. ",
+      "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. "
+    ],
+    "evaluations": {
+      "faithfulness": {
+        "query": "c755f533-0cc2-451e-8ea0-075b34aa98ae",
+        "contexts": [
+          "Front.  Ecol.  Evol., 8, 144, doi:10.3389/fevo.2020.00144.\n Nguyen, T., M. Pham and T.L.  Anh, 2020: Spray, combustion, performance and \nemission characteristics of a common rail diesel engine fueled by fish-oil \nbiodiesel blends.  Fuel., 269, 117108, doi:10.1016/j.fuel.2020.117108.\n Ni, W., M. Li and J.M. ",
+          "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. "
+        ],
+        "response": "I'm sorry, but I can't answer that query. The provided context doesn't contain information relevant to the identifier \"c755f533-0cc2-451e-8ea0-075b34aa98ae,\" so I have no basis to respond to it.",
+        "passing": false,
+        "feedback": "NO",
+        "score": 0.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      },
+      "relevancy": {
+        "query": "c755f533-0cc2-451e-8ea0-075b34aa98ae",
+        "contexts": [
+          "Front.  Ecol.  Evol., 8, 144, doi:10.3389/fevo.2020.00144.\n Nguyen, T., M. Pham and T.L.  Anh, 2020: Spray, combustion, performance and \nemission characteristics of a common rail diesel engine fueled by fish-oil \nbiodiesel blends.  Fuel., 269, 117108, doi:10.1016/j.fuel.2020.117108.\n Ni, W., M. Li and J.M. ",
+          "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. "
+        ],
+        "response": "I'm sorry, but I can't answer that query. The provided context doesn't contain information relevant to the identifier \"c755f533-0cc2-451e-8ea0-075b34aa98ae,\" so I have no basis to respond to it.",
+        "passing": true,
+        "feedback": "YES",
+        "score": 1.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      }
+    }
+  },
+  {
+    "question": "5deeacd7-4787-4355-8a76-09b62ef58c25",
+    "answer": "I'm sorry, but I can't answer that. The query appears to be an identifier (a UUID) rather than a question, and the provided context doesn't contain information that would let me respond to it meaningfully. If you have an actual question about the material, please share it and I'll do my best to help.",
+    "contexts": [
+      "[Pörtner, H.-O., D. C. Roberts, V. Masson-\nDelmotte, P .  Zhai, M. Tignor, E. Poloczanska, K. Mintenbeck, A. Alegría, M. \nNicolai, A. Okem, J. Petzold, B. Rama and N. M. Weyer (eds. )](In press).\n IPCC, 2021a: Annex VII: Glossary [Matthews, J. B. R., J. S. Fuglestvedt, V. Masson-\nDelmotte, V. Möller, C. Méndez, R. van Diemen, A. Reisinger, S. Semenov \n(ed.)].  In: Climate Change 2021: The Physical Science Basis.  Contribution of \nWorking Group I to the Sixth Assessment Report of the Intergovernmental \nPanel on Climate Change.  [Masson-Delmotte, V., P . ",
+      "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. "
+    ],
+    "evaluations": {
+      "faithfulness": {
+        "query": "5deeacd7-4787-4355-8a76-09b62ef58c25",
+        "contexts": [
+          "[Pörtner, H.-O., D. C. Roberts, V. Masson-\nDelmotte, P .  Zhai, M. Tignor, E. Poloczanska, K. Mintenbeck, A. Alegría, M. \nNicolai, A. Okem, J. Petzold, B. Rama and N. M. Weyer (eds. )](In press).\n IPCC, 2021a: Annex VII: Glossary [Matthews, J. B. R., J. S. Fuglestvedt, V. Masson-\nDelmotte, V. Möller, C. Méndez, R. van Diemen, A. Reisinger, S. Semenov \n(ed.)].  In: Climate Change 2021: The Physical Science Basis.  Contribution of \nWorking Group I to the Sixth Assessment Report of the Intergovernmental \nPanel on Climate Change.  [Masson-Delmotte, V., P . ",
+          "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. "
+        ],
+        "response": "I'm sorry, but I can't answer that. The query appears to be an identifier (a UUID) rather than a question, and the provided context doesn't contain information that would let me respond to it meaningfully. If you have an actual question about the material, please share it and I'll do my best to help.",
+        "passing": false,
+        "feedback": "NO",
+        "score": 0.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      },
+      "relevancy": {
+        "query": "5deeacd7-4787-4355-8a76-09b62ef58c25",
+        "contexts": [
+          "[Pörtner, H.-O., D. C. Roberts, V. Masson-\nDelmotte, P .  Zhai, M. Tignor, E. Poloczanska, K. Mintenbeck, A. Alegría, M. \nNicolai, A. Okem, J. Petzold, B. Rama and N. M. Weyer (eds. )](In press).\n IPCC, 2021a: Annex VII: Glossary [Matthews, J. B. R., J. S. Fuglestvedt, V. Masson-\nDelmotte, V. Möller, C. Méndez, R. van Diemen, A. Reisinger, S. Semenov \n(ed.)].  In: Climate Change 2021: The Physical Science Basis.  Contribution of \nWorking Group I to the Sixth Assessment Report of the Intergovernmental \nPanel on Climate Change.  [Masson-Delmotte, V., P . ",
+          "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. "
+        ],
+        "response": "I'm sorry, but I can't answer that. The query appears to be an identifier (a UUID) rather than a question, and the provided context doesn't contain information that would let me respond to it meaningfully. If you have an actual question about the material, please share it and I'll do my best to help.",
+        "passing": true,
+        "feedback": "YES",
+        "score": 1.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      }
+    }
+  },
+  {
+    "question": "6454ade5-3430-4233-a365-125e4b2f4dd7",
+    "answer": "I'm sorry, but I can't answer that query. The provided context doesn't contain information relevant to the identifier \"6454ade5-3430-4233-a365-125e4b2f4dd7,\" so there's nothing I can use to formulate a meaningful response.",
+    "contexts": [
+      "(2019); \nMeyer and Kröncke (2019); Yan et al.  (2019); Bargahi et al. \n (2020); Bedford et al.  (2020); Denechaud et al.  (2020); \nFriedland et al.  (2020b); Mérillet et al.  (2020); Nohe et al. \n",
+      "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. "
+    ],
+    "evaluations": {
+      "faithfulness": {
+        "query": "6454ade5-3430-4233-a365-125e4b2f4dd7",
+        "contexts": [
+          "(2019); \nMeyer and Kröncke (2019); Yan et al.  (2019); Bargahi et al. \n (2020); Bedford et al.  (2020); Denechaud et al.  (2020); \nFriedland et al.  (2020b); Mérillet et al.  (2020); Nohe et al. \n",
+          "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. "
+        ],
+        "response": "I'm sorry, but I can't answer that query. The provided context doesn't contain information relevant to the identifier \"6454ade5-3430-4233-a365-125e4b2f4dd7,\" so there's nothing I can use to formulate a meaningful response.",
+        "passing": false,
+        "feedback": "NO",
+        "score": 0.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      },
+      "relevancy": {
+        "query": "6454ade5-3430-4233-a365-125e4b2f4dd7",
+        "contexts": [
+          "(2019); \nMeyer and Kröncke (2019); Yan et al.  (2019); Bargahi et al. \n (2020); Bedford et al.  (2020); Denechaud et al.  (2020); \nFriedland et al.  (2020b); Mérillet et al.  (2020); Nohe et al. \n",
+          "(ed.)].  In: IPCC Special Report \non the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., D. \nC. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)]. "
+        ],
+        "response": "I'm sorry, but I can't answer that query. The provided context doesn't contain information relevant to the identifier \"6454ade5-3430-4233-a365-125e4b2f4dd7,\" so there's nothing I can use to formulate a meaningful response.",
+        "passing": true,
+        "feedback": "YES",
+        "score": 1.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      }
+    }
+  },
+  {
+    "question": "b1b06c9a-de05-4e06-8d12-be02e715021b",
+    "answer": "I'm sorry, but I can't answer that query. The provided context doesn't contain any information related to that identifier, so I have no basis to respond to it.",
+    "contexts": [
+      "[Pörtner, H.-O., D. C. Roberts, V. Masson-\nDelmotte, P .  Zhai, M. Tignor, E. Poloczanska, K. Mintenbeck, A. Alegría, M. \nNicolai, A. Okem, J. Petzold, B. Rama and N. M. Weyer (eds. )](In press).\n IPCC, 2021a: Annex VII: Glossary [Matthews, J. B. R., J. S. Fuglestvedt, V. Masson-\nDelmotte, V. Möller, C. Méndez, R. van Diemen, A. Reisinger, S. Semenov \n(ed.)].  In: Climate Change 2021: The Physical Science Basis.  Contribution of \nWorking Group I to the Sixth Assessment Report of the Intergovernmental \nPanel on Climate Change.  [Masson-Delmotte, V., P . ",
+      "Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)].  In press.\n IPCC, 2019c: Summary for Policymakers.  In: IPCC Special Report on the Ocean \nand Cryosphere in a Changing Climate. "
+    ],
+    "evaluations": {
+      "faithfulness": {
+        "query": "b1b06c9a-de05-4e06-8d12-be02e715021b",
+        "contexts": [
+          "[Pörtner, H.-O., D. C. Roberts, V. Masson-\nDelmotte, P .  Zhai, M. Tignor, E. Poloczanska, K. Mintenbeck, A. Alegría, M. \nNicolai, A. Okem, J. Petzold, B. Rama and N. M. Weyer (eds. )](In press).\n IPCC, 2021a: Annex VII: Glossary [Matthews, J. B. R., J. S. Fuglestvedt, V. Masson-\nDelmotte, V. Möller, C. Méndez, R. van Diemen, A. Reisinger, S. Semenov \n(ed.)].  In: Climate Change 2021: The Physical Science Basis.  Contribution of \nWorking Group I to the Sixth Assessment Report of the Intergovernmental \nPanel on Climate Change.  [Masson-Delmotte, V., P . ",
+          "Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)].  In press.\n IPCC, 2019c: Summary for Policymakers.  In: IPCC Special Report on the Ocean \nand Cryosphere in a Changing Climate. "
+        ],
+        "response": "I'm sorry, but I can't answer that query. The provided context doesn't contain any information related to that identifier, so I have no basis to respond to it.",
+        "passing": false,
+        "feedback": "NO",
+        "score": 0.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      },
+      "relevancy": {
+        "query": "b1b06c9a-de05-4e06-8d12-be02e715021b",
+        "contexts": [
+          "[Pörtner, H.-O., D. C. Roberts, V. Masson-\nDelmotte, P .  Zhai, M. Tignor, E. Poloczanska, K. Mintenbeck, A. Alegría, M. \nNicolai, A. Okem, J. Petzold, B. Rama and N. M. Weyer (eds. )](In press).\n IPCC, 2021a: Annex VII: Glossary [Matthews, J. B. R., J. S. Fuglestvedt, V. Masson-\nDelmotte, V. Möller, C. Méndez, R. van Diemen, A. Reisinger, S. Semenov \n(ed.)].  In: Climate Change 2021: The Physical Science Basis.  Contribution of \nWorking Group I to the Sixth Assessment Report of the Intergovernmental \nPanel on Climate Change.  [Masson-Delmotte, V., P . ",
+          "Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (In press).\n IPCC, 2019b: IPCC Special Report on the Ocean and Cryosphere in a Changing \nClimate [Pörtner, H.-O., D. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, \nE. S. Poloczanska, K. Mintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and \nN. Weyer (eds.)].  In press.\n IPCC, 2019c: Summary for Policymakers.  In: IPCC Special Report on the Ocean \nand Cryosphere in a Changing Climate. "
+        ],
+        "response": "I'm sorry, but I can't answer that query. The provided context doesn't contain any information related to that identifier, so I have no basis to respond to it.",
+        "passing": true,
+        "feedback": "YES",
+        "score": 1.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      }
+    }
+  },
+  {
+    "question": "28475f32-c071-45e3-9ef2-d42fdd2422c2",
+    "answer": "I'm sorry, but I can't answer that query. The provided context doesn't contain information relevant to the identifier \"28475f32-c071-45e3-9ef2-d42fdd2422c2,\" so I have no basis to respond to it.",
+    "contexts": [
+      "(2019); \nMeyer and Kröncke (2019); Yan et al.  (2019); Bargahi et al. \n (2020); Bedford et al.  (2020); Denechaud et al.  (2020); \nFriedland et al.  (2020b); Mérillet et al.  (2020); Nohe et al. \n",
+      "(2019); Bargahi et al. \n (2020); Bedford et al.  (2020); Denechaud et al.  (2020); \nFriedland et al.  (2020b); Mérillet et al.  (2020); Nohe et al. \n (2020)\npH Acidification with hypoxia Zhang and Wang (2019)\nSalinity Change in species distribution due to altered salinity front \ndistribution Liu et al. "
+    ],
+    "evaluations": {
+      "faithfulness": {
+        "query": "28475f32-c071-45e3-9ef2-d42fdd2422c2",
+        "contexts": [
+          "(2019); \nMeyer and Kröncke (2019); Yan et al.  (2019); Bargahi et al. \n (2020); Bedford et al.  (2020); Denechaud et al.  (2020); \nFriedland et al.  (2020b); Mérillet et al.  (2020); Nohe et al. \n",
+          "(2019); Bargahi et al. \n (2020); Bedford et al.  (2020); Denechaud et al.  (2020); \nFriedland et al.  (2020b); Mérillet et al.  (2020); Nohe et al. \n (2020)\npH Acidification with hypoxia Zhang and Wang (2019)\nSalinity Change in species distribution due to altered salinity front \ndistribution Liu et al. "
+        ],
+        "response": "I'm sorry, but I can't answer that query. The provided context doesn't contain information relevant to the identifier \"28475f32-c071-45e3-9ef2-d42fdd2422c2,\" so I have no basis to respond to it.",
+        "passing": false,
+        "feedback": "NO",
+        "score": 0.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      },
+      "relevancy": {
+        "query": "28475f32-c071-45e3-9ef2-d42fdd2422c2",
+        "contexts": [
+          "(2019); \nMeyer and Kröncke (2019); Yan et al.  (2019); Bargahi et al. \n (2020); Bedford et al.  (2020); Denechaud et al.  (2020); \nFriedland et al.  (2020b); Mérillet et al.  (2020); Nohe et al. \n",
+          "(2019); Bargahi et al. \n (2020); Bedford et al.  (2020); Denechaud et al.  (2020); \nFriedland et al.  (2020b); Mérillet et al.  (2020); Nohe et al. \n (2020)\npH Acidification with hypoxia Zhang and Wang (2019)\nSalinity Change in species distribution due to altered salinity front \ndistribution Liu et al. "
+        ],
+        "response": "I'm sorry, but I can't answer that query. The provided context doesn't contain information relevant to the identifier \"28475f32-c071-45e3-9ef2-d42fdd2422c2,\" so I have no basis to respond to it.",
+        "passing": true,
+        "feedback": "YES",
+        "score": 1.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      }
+    }
+  },
+  {
+    "question": "fecc0c05-a668-4644-9c37-8ec50e83103e",
+    "answer": "I'm sorry, but I can't answer that. The query appears to be an identifier (a UUID) rather than a question, and the provided context doesn't contain information that would let me respond to it. If you have an actual question about the material, please share it and I'll do my best to help.",
+    "contexts": [
+      "Contribution \nof Working Group I to the Sixth Assessment Report of the Intergovernmental \nPanel on Climate Change.  [Masson-Delmotte, V., P .  Zhai, A. Pirani, S. L. \nConnors, C. Péan, S. Berger, N. Caud, Y .  Chen, L. Goldfarb, M. I. Gomis, M. \nHuang, K. Leitzell, E. Lonnoy, J. B. R. Matthews, T. K. Maycock, T. Waterfield, O. \nYelekçi, R. Yu and B. Zhou (eds.)].  Cambridge University Press.\n Cao, R., et  al., 2018: CO 2-induced ocean acidification impairs the immune \nfunction of the Pacific oyster against Vibrio splendidus challenge: an \nintegrated study from a cellular and proteomic perspective.  Sci. ",
+      "Abram, N., et al., 2019: Framing and Context of the Report.  In: IPCC Special \nReport on the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., \nD. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (pp.  In press).\n Aderinto, T. and H. Li, 2018: Ocean wave energy converters: status and \nchallenges. "
+    ],
+    "evaluations": {
+      "faithfulness": {
+        "query": "fecc0c05-a668-4644-9c37-8ec50e83103e",
+        "contexts": [
+          "Contribution \nof Working Group I to the Sixth Assessment Report of the Intergovernmental \nPanel on Climate Change.  [Masson-Delmotte, V., P .  Zhai, A. Pirani, S. L. \nConnors, C. Péan, S. Berger, N. Caud, Y .  Chen, L. Goldfarb, M. I. Gomis, M. \nHuang, K. Leitzell, E. Lonnoy, J. B. R. Matthews, T. K. Maycock, T. Waterfield, O. \nYelekçi, R. Yu and B. Zhou (eds.)].  Cambridge University Press.\n Cao, R., et  al., 2018: CO 2-induced ocean acidification impairs the immune \nfunction of the Pacific oyster against Vibrio splendidus challenge: an \nintegrated study from a cellular and proteomic perspective.  Sci. ",
+          "Abram, N., et al., 2019: Framing and Context of the Report.  In: IPCC Special \nReport on the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., \nD. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (pp.  In press).\n Aderinto, T. and H. Li, 2018: Ocean wave energy converters: status and \nchallenges. "
+        ],
+        "response": "I'm sorry, but I can't answer that. The query appears to be an identifier (a UUID) rather than a question, and the provided context doesn't contain information that would let me respond to it. If you have an actual question about the material, please share it and I'll do my best to help.",
+        "passing": false,
+        "feedback": "NO",
+        "score": 0.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      },
+      "relevancy": {
+        "query": "fecc0c05-a668-4644-9c37-8ec50e83103e",
+        "contexts": [
+          "Contribution \nof Working Group I to the Sixth Assessment Report of the Intergovernmental \nPanel on Climate Change.  [Masson-Delmotte, V., P .  Zhai, A. Pirani, S. L. \nConnors, C. Péan, S. Berger, N. Caud, Y .  Chen, L. Goldfarb, M. I. Gomis, M. \nHuang, K. Leitzell, E. Lonnoy, J. B. R. Matthews, T. K. Maycock, T. Waterfield, O. \nYelekçi, R. Yu and B. Zhou (eds.)].  Cambridge University Press.\n Cao, R., et  al., 2018: CO 2-induced ocean acidification impairs the immune \nfunction of the Pacific oyster against Vibrio splendidus challenge: an \nintegrated study from a cellular and proteomic perspective.  Sci. ",
+          "Abram, N., et al., 2019: Framing and Context of the Report.  In: IPCC Special \nReport on the Ocean and Cryosphere in a Changing Climate.  [Pörtner, H.-O., \nD. C. Roberts, V. Masson-Delmotte, P .  Zhai, M. Tignor, E. S. Poloczanska, K. \nMintenbeck, M. Nicolai, A. Okem, J. Petzold, B. Rama and N. Weyer (eds.)]\n (pp.  In press).\n Aderinto, T. and H. Li, 2018: Ocean wave energy converters: status and \nchallenges. "
+        ],
+        "response": "I'm sorry, but I can't answer that. The query appears to be an identifier (a UUID) rather than a question, and the provided context doesn't contain information that would let me respond to it. If you have an actual question about the material, please share it and I'll do my best to help.",
+        "passing": true,
+        "feedback": "YES",
+        "score": 1.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      }
+    }
+  },
+  {
+    "question": "7672e1b0-5d3b-4612-ada8-73285d9ecd22",
+    "answer": "I'm sorry, but I can't answer that query. The identifier \"7672e1b0-5d3b-4612-ada8-73285d9ecd22\" doesn't correspond to any question or content in the provided information, so there's nothing I can address. If you have an actual question about the material, please share it and I'll be glad to help.",
+    "contexts": [
+      "[Pörtner, H.-O., D. C. Roberts, V. Masson-\nDelmotte, P .  Zhai, M. Tignor, E. Poloczanska, K. Mintenbeck, A. Alegría, M. \nNicolai, A. Okem, J. Petzold, B. Rama and N. M. Weyer (eds. )](In press).\n IPCC, 2021a: Annex VII: Glossary [Matthews, J. B. R., J. S. Fuglestvedt, V. Masson-\nDelmotte, V. Möller, C. Méndez, R. van Diemen, A. Reisinger, S. Semenov \n(ed.)].  In: Climate Change 2021: The Physical Science Basis.  Contribution of \nWorking Group I to the Sixth Assessment Report of the Intergovernmental \nPanel on Climate Change.  [Masson-Delmotte, V., P . ",
+      "Each \nbar represents an index value that semi-quantitatively integrates the magnitude, vulnerability to loss and substitutability of the benefit.  Indices synthesize information on people’s \nconsumption of marine protein and nutritional status, gross domestic product, fishing revenues, unemployment, education, governance and coastal characteristics.  Overall \ndependence is the mean of the three index values after standardisation from 0–1.  (Details regarding component indices are found in Table 1 and Supplementary Material of Selig \net al., 2019.)  The overall index does not include the economic benefits from tourism or other ocean industries, and data limitations prevented including artisanal or recreational \nfisheries or the protective impact of salt marshes (Selig et al., 2019).  Values for reference regions established in the WGI AR6 Atlas (Gutiérrez et al., 2021) were computed as \narea-weighted means from original country-level data (Table S6 in Selig et al., 2019)."
+    ],
+    "evaluations": {
+      "faithfulness": {
+        "query": "7672e1b0-5d3b-4612-ada8-73285d9ecd22",
+        "contexts": [
+          "[Pörtner, H.-O., D. C. Roberts, V. Masson-\nDelmotte, P .  Zhai, M. Tignor, E. Poloczanska, K. Mintenbeck, A. Alegría, M. \nNicolai, A. Okem, J. Petzold, B. Rama and N. M. Weyer (eds. )](In press).\n IPCC, 2021a: Annex VII: Glossary [Matthews, J. B. R., J. S. Fuglestvedt, V. Masson-\nDelmotte, V. Möller, C. Méndez, R. van Diemen, A. Reisinger, S. Semenov \n(ed.)].  In: Climate Change 2021: The Physical Science Basis.  Contribution of \nWorking Group I to the Sixth Assessment Report of the Intergovernmental \nPanel on Climate Change.  [Masson-Delmotte, V., P . ",
+          "Each \nbar represents an index value that semi-quantitatively integrates the magnitude, vulnerability to loss and substitutability of the benefit.  Indices synthesize information on people’s \nconsumption of marine protein and nutritional status, gross domestic product, fishing revenues, unemployment, education, governance and coastal characteristics.  Overall \ndependence is the mean of the three index values after standardisation from 0–1.  (Details regarding component indices are found in Table 1 and Supplementary Material of Selig \net al., 2019.)  The overall index does not include the economic benefits from tourism or other ocean industries, and data limitations prevented including artisanal or recreational \nfisheries or the protective impact of salt marshes (Selig et al., 2019).  Values for reference regions established in the WGI AR6 Atlas (Gutiérrez et al., 2021) were computed as \narea-weighted means from original country-level data (Table S6 in Selig et al., 2019)."
+        ],
+        "response": "I'm sorry, but I can't answer that query. The identifier \"7672e1b0-5d3b-4612-ada8-73285d9ecd22\" doesn't correspond to any question or content in the provided information, so there's nothing I can address. If you have an actual question about the material, please share it and I'll be glad to help.",
+        "passing": false,
+        "feedback": "NO",
+        "score": 0.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      },
+      "relevancy": {
+        "query": "7672e1b0-5d3b-4612-ada8-73285d9ecd22",
+        "contexts": [
+          "[Pörtner, H.-O., D. C. Roberts, V. Masson-\nDelmotte, P .  Zhai, M. Tignor, E. Poloczanska, K. Mintenbeck, A. Alegría, M. \nNicolai, A. Okem, J. Petzold, B. Rama and N. M. Weyer (eds. )](In press).\n IPCC, 2021a: Annex VII: Glossary [Matthews, J. B. R., J. S. Fuglestvedt, V. Masson-\nDelmotte, V. Möller, C. Méndez, R. van Diemen, A. Reisinger, S. Semenov \n(ed.)].  In: Climate Change 2021: The Physical Science Basis.  Contribution of \nWorking Group I to the Sixth Assessment Report of the Intergovernmental \nPanel on Climate Change.  [Masson-Delmotte, V., P . ",
+          "Each \nbar represents an index value that semi-quantitatively integrates the magnitude, vulnerability to loss and substitutability of the benefit.  Indices synthesize information on people’s \nconsumption of marine protein and nutritional status, gross domestic product, fishing revenues, unemployment, education, governance and coastal characteristics.  Overall \ndependence is the mean of the three index values after standardisation from 0–1.  (Details regarding component indices are found in Table 1 and Supplementary Material of Selig \net al., 2019.)  The overall index does not include the economic benefits from tourism or other ocean industries, and data limitations prevented including artisanal or recreational \nfisheries or the protective impact of salt marshes (Selig et al., 2019).  Values for reference regions established in the WGI AR6 Atlas (Gutiérrez et al., 2021) were computed as \narea-weighted means from original country-level data (Table S6 in Selig et al., 2019)."
+        ],
+        "response": "I'm sorry, but I can't answer that query. The identifier \"7672e1b0-5d3b-4612-ada8-73285d9ecd22\" doesn't correspond to any question or content in the provided information, so there's nothing I can address. If you have an actual question about the material, please share it and I'll be glad to help.",
+        "passing": true,
+        "feedback": "YES",
+        "score": 1.0,
+        "pairwise_source": null,
+        "invalid_result": false,
+        "invalid_reason": null
+      }
+    }
+  }
+]

@@ -1,5 +1,6 @@
 import os
 import asyncio
+import json
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 from llama_index.core.node_parser import SentenceWindowNodeParser, SentenceSplitter
 from llama_index.llms.deepseek import DeepSeek
@@ -16,13 +17,45 @@ from llama_index.core.evaluation import DatasetGenerator, QueryResponseDataset
 Settings.llm = DeepSeek(model="deepseek-chat", temperature=0.1, api_key=os.getenv("DEEPSEEK_API_KEY"))
 Settings.embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en")
 
+
+def report_evaluation_details(label, queries, results, output_path):
+    """打印并保存已有评估结果，不重新调用查询引擎或评估模型。"""
+    records = []
+    print(f"\n=== {label}：逐题评估明细 ===")
+    for i, query in enumerate(queries):
+        faith = results["faithfulness"][i]
+        relevance = results["relevancy"][i]
+        record = {
+            "question": query,
+            "answer": faith.response,
+            "contexts": faith.contexts,
+            "evaluations": {
+                metric: results[metric][i].model_dump()
+                for metric in results
+            },
+        }
+        records.append(record)
+        print(f"\n--- 问题 {i + 1}: {query} ---")
+        print(f"RAG回答:\n{faith.response}")
+        for j, context in enumerate(faith.contexts or [], 1):
+            print(f"\n检索上下文 [{j}]:\n{context}")
+        for name, evaluation in [("忠实度", faith), ("相关性", relevance)]:
+            print(f"\n{name}: passing={evaluation.passing}, score={evaluation.score}")
+            print(f"评估模型原始反馈: {evaluation.feedback!r}")
+            if evaluation.invalid_result:
+                print(f"评估结果无效: {evaluation.invalid_reason}")
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(records, f, ensure_ascii=False, indent=2)
+    print(f"\n明细已保存: {os.path.abspath(output_path)}")
+
+
 async def main():
     # 1. 加载文档
     reader = SimpleDirectoryReader(input_files=["../../data/C3/pdf/IPCC_AR6_WGII_Chapter03.pdf"])
     documents = reader.load_data()
 
     # 1.1 加载或生成响应评估数据集
-    if os.path.exists("./c6_response_eval_dataset_2.json"):
+    if os.path.exists("./c6_response_eval_dataset_1.json"):
         print("加载响应评估数据集...")
         response_eval_dataset = QueryResponseDataset.from_json("./c6_response_eval_dataset_1.json")
     else:
@@ -77,6 +110,13 @@ async def main():
     # 4. 执行响应评估对比
     print("开始执行响应评估对比...")
     evaluators = {"faithfulness": faithfulness_evaluator, "relevancy": relevancy_evaluator}
+    # 保存实际使用的评估提示词，方便核对判分标准。
+    with open("c6_evaluation_prompts.json", "w", encoding="utf-8") as f:
+        json.dump(
+            {name: {key: prompt.get_template() for key, prompt in evaluator.get_prompts().items()}
+             for name, evaluator in evaluators.items()},
+            f, ensure_ascii=False, indent=2,
+        )
     queries = response_eval_dataset.queries
 
     # 句子窗口检索响应评估
@@ -85,12 +125,18 @@ async def main():
     sentence_response_results = await sentence_runner.aevaluate_queries(
         queries=queries, query_engine=sentence_query_engine
     )
+    report_evaluation_details(
+        "句子窗口检索", queries, sentence_response_results, "c6_sentence_eval_details.json"
+    )
 
     # 常规分块检索响应评估
     print("\n=== 评估常规分块检索 ===")
     base_runner = BatchEvalRunner(evaluators, workers=2, show_progress=True)
     base_response_results = await base_runner.aevaluate_queries(
         queries=queries, query_engine=base_query_engine
+    )
+    report_evaluation_details(
+        "常规分块检索", queries, base_response_results, "c6_base_eval_details.json"
     )
 
     # 5. 分析并打印对比结果
